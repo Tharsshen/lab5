@@ -1,6 +1,6 @@
 from xmlrpc.client import ServerProxy
 
-proxy = ServerProxy("http://localhost:9001/")
+proxy = ServerProxy("http://localhost:5050/")
 
 print("Add:", proxy.add(8, 2))
 print("Subtract:", proxy.subtract(8, 2))

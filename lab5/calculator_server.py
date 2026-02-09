@@ -1,7 +1,7 @@
 from xmlrpc.server import SimpleXMLRPCServer
 
-server = SimpleXMLRPCServer(("localhost", 9001))
-print("Calculator RPC Server running on port 9001...")
+server = SimpleXMLRPCServer(("localhost", 5050))
+print("Calculator RPC Server running on port 5050...")
 
 def add(a, b):
     return a + b
